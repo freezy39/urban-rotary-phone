@@ -1,0 +1,82 @@
+Hyperparameter Optimization
+Overview
+In this module, you will investigate approaches to making the TensorFlow implementation of a deep learning model more robust in terms of computational efficiency and prediction improvement. Hyperparameter optimization, also known as hyperparameter tuning, is the approach of modifying the model’s hyperparameters to improve model performance. Prior to this module, your work with fully connected networks involved tuning the weights based on loading from data from minibatches, but the other settings of the network were not modified. Adjusting other aspects of the model can potentially lead to faster computational times with better results. Hyperparameters include the number of hidden layers, the number of neurons per hidden layer, the learning rate, and more. Each of these can be easily modified using TensorFlow.
+
+Objectives
+Evaluate hyperparameter optimization.
+Analyze hyperparameter optimization algorithms.
+Analyze hyperparameter tuning outcomes and changes in model performance
+Readings
+Required
+
+Chapter 5 in TensorFlow in Action. 
+Recommended
+
+Chapter 2 in Artificial Intelligence with Python Cookbook. Pages 71-83. 
+
+5.1 Model Evaluation and Hyperparameter Optimization
+Module 5 Overview (1 of 7)
+Current Page: 5.1 Model Evaluation and Hyperparameter Optimization (2 of 7)
+5.2 Hyperparameter Metrics (3 of 7)
+5.3 Hyperparameter Optimization Algorithms (4 of 7)
+5.4 Summary (5 of 7)
+Module 5: Discussion Forum (6 of 7)
+Module 5: Critical Thinking Assignment (7 of 7)
+
+
+What does it take in order to create a high-quality deep learning model? A common way to improve the performance of any neural network is to utilize hyperparameter optimization, or tuning. Hyperparameter optimization is used in order to update parameters in a model that are not affected or learned through gradient descent. The elements that are associated with a fully connected network that cannot be learned from the data used are known as hyperparameters. These can be thought of as the characteristics of the model.
+
+Hyperparameters can encompass a number of components from fully connected networks including the number of hidden layers, the learning rate, and the neutrons per hidden layer. There is an important tradeoff that must be taken into account to find the right balance between hyperparameters and the fully connected networks. The balance that will enable a TensorFlow model to improve drastically is hyperparameter optimization.
+
+In order to evaluate the successfulness of a model, it is important to take into account the performance of the model for accurately making prospective predictions for datapoints that are not available. In order to accomplish this task, a model is typically developed and evaluated on data that is available. This can result in models that might not provide the best insight for different datapoints or different scenarios. In order to improve this performance, a subset of the data should be hidden and not used to test the model’s ability to accurately predict. The portion of the data that is hidden is known as a validation set.
+
+5.2 Hyperparameter Metrics
+Module 5 Overview (1 of 7)
+5.1 Model Evaluation and Hyperparameter Optimization (2 of 7)
+Current Page: 5.2 Hyperparameter Metrics (3 of 7)
+5.3 Hyperparameter Optimization Algorithms (4 of 7)
+5.4 Summary (5 of 7)
+Module 5: Discussion Forum (6 of 7)
+Module 5: Critical Thinking Assignment (7 of 7)
+In order to achieve appropriate hyperparameter optimization, you need a way to determine how successful the model and optimization are. Metrics can be used in order to denote if the optimization is successful against an appropriate validation set. A metric can be used to evaluate a variety of hyperparameters. The metric can be used against a single quantity in the model or multiple quantities for comparison. However, the common school of thought is that you want to identify the appropriate metric that is most likely to cause the greatest optimization effect.
+
+Binary Classification Metrics
+There are a set of categories that can be utilized in order to determine the prediction of a binary classifier. The following Table 1 provides an overview of the four categories in which a binary classifier can be placed. In order to provide the best possible optimization, it is important to minimize the number of false predictions. These predictions can be classified negatively as a false positive (FP) or a false negative (FN).
+
+Category	Meaning
+True Positive (TP)	
+Predicted true, Label true
+
+False Positive (FP)	
+Predicted true, Label false
+
+True Negative (TN)	
+Predicted negative, Label negative
+
+False Negative (FN)	
+Predicted false, Label negative
+
+Ramsundar, & Zadeh, 2018, Chapter 5
+
+ 5.3 Hyperparameter Optimization Algorithms
+Module 5 Overview (1 of 7)
+5.1 Model Evaluation and Hyperparameter Optimization (2 of 7)
+5.2 Hyperparameter Metrics (3 of 7)
+Current Page: 5.3 Hyperparameter Optimization Algorithms (4 of 7)
+5.4 Summary (5 of 7)
+Module 5: Discussion Forum (6 of 7)
+Module 5: Critical Thinking Assignment (7 of 7)
+What is the most common approach used to determine the best way to structure a hyperparameter optimization? The essential step that must be followed is determining an appropriate baseline that can be used. Specifically, the baseline is representative of the minimal performance that would be needed by the hyperparameter algorithm for the optimization to be deemed successful.
+
+There are various strategies and algorithms that can be used to perform hyperparameter optimization. A common approach is the graduate student descent algorithm. This algorithm involves a brute-force approach that can be used to determine the right combination of hyperparameter variants to see if optimization is achievable.
+
+In the following videos you see how predictive analytics gives programmers a tool to tell stories about the future: to extract usable information and make accurate predictions.
+
+
+
+Watch this LinkedIn  video Hyperparameter OptimizationLinks to an external site., part of the Python: Working with Predictive Analytics course, Isil Berkun, data scientist, explores predictive analytics with Python. Discover how to prepare data—fill in missing values, perform feature scaling, and more—and use prebuilt Python libraries to make and evaluate prediction models.
+
+In the video Challenge Hyperparameter OptimizationLinks to an external site., part of the Python: Working with Predictive Analytics course, Isil Berkun describes what models to use when, and explains the concepts in such a way that you can immediately apply them to your own work.
+
+https://www.linkedin.com/learning/python-working-with-predictive-analytics/predict-data-in-python
+
