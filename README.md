@@ -1,24 +1,17 @@
-# Machine Learning, Computer Vision, and Data Analysis
+# Applied ML Projects
 
-Coursework and applied projects from my M.S. in AI and Machine Learning at CSU Global (completed 2026), with data work tied to my marketing analytics background. The collection spans machine learning prediction, exploratory data analysis, computer vision, and interactive visualization.
+Applied machine learning projects from my M.S. in AI and Machine Learning at CSU Global, organized by project.
 
-## Featured work
+## Projects
 
-- `SpaceX_Machine Learning Prediction_Part_5.ipynb` — Compares logistic regression, support vector machines, decision trees, and k-nearest neighbors, tuned with GridSearchCV, to predict whether a SpaceX Falcon 9 first stage will land.
-- `edadataviz.ipynb` — Exploratory data analysis and feature engineering for the Falcon 9 landing prediction task.
-- `CLV.py` — Plots the distribution of customer order frequency from orders data, supporting customer lifetime value analysis.
-- `face_recognition_project_opencv.py` — An OpenCV face-recognition project script.
+- **spacex-capstone**: The SpaceX Falcon 9 landing prediction sequence in seven steps: web scraping, data wrangling, SQL EDA, visual EDA, launch site mapping, an interactive Plotly Dash app, and the final classification models.
+- **tox21**: Neural network classification on the Tox21 toxicity dataset, with a hyperparameter search (results and loss curves included) and the accuracy analysis paper.
+- **computer-vision**: OpenCV portfolio: filtering, morphology, adaptive thresholding, face blending, face recognition, and a license plate detection pipeline, with sample images and detection outputs.
+- **camp-classifier**: CNN image classifier for retail catalog search and filtering, built with TensorFlow.
+- **marketing-dashboard**: Node and Express backend for a marketing reporting dashboard.
+- **small-projects**: Focused exercises: KNN and Naive Bayes classifiers, polynomial regression, an order frequency analysis, and the sales datasets they run on.
+- **papers**: Design papers, including a reinforcement learning product bundling proposal.
+- **tableau**: Tableau workbooks and published views.
+- **coursework-archives, assets**: Original submission archives and working screenshots.
 
-## Tools
-
-- Python
-- Jupyter Notebook
-- scikit-learn
-- OpenCV
-- Dash
-- SQL
-- Tableau
-
-## What else is here
-
-The repository also includes `edadataviz2.ipynb`, SQL and web-scraping notebooks, `knn_iris_classifier.py`, `polynomial_salary_regression.py`, sales data CSVs, `cta5_tox21_hyperopt.py`, a CSC525 ML Agent portfolio document, license-plate scripts, `spacex_dash_app.py`, and Tableau workbooks.
+Earlier coursework and papers live in [coursework-foundations](https://github.com/freezy39/coursework-foundations).
